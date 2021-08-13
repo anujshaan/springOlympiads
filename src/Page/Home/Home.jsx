@@ -1,6 +1,6 @@
 import './home.css'
 import Navbar from '../../Component/Navbar/Navbar';
-import mainImg from '../../Assets/4.png';
+import mainImg from '../../Assets/5.png';
 import OlympiadExams from '../../Component/OlympiadExams/OlympiadExams';
 import science from '../../Assets/science.png';
 import math from '../../Assets/math.png';
@@ -16,22 +16,24 @@ export default function Home() {
 
     return (
         <div className="home">
-                <Navbar />
             <div className="homeWrapper sectionScroll" >
-                <div className="mainDetail ">
-                    <h1 className="mainDetailHeading">Feeling Prepared?</h1>
-                    <h1 className="mainDetailParagraph">Register for <p>Grad Olympiads</p></h1>
-                    <div className="mainDetailsButton">
-                        <button className="mainSchedule">Schedule</button>
-                        <button className="mainRegisterNow">Register Now!</button>
+                <Navbar />
+                <div className="homeWrapperDetails">
+                    <div className="mainDetail ">
+                        <h1 className="mainDetailHeading">Feeling Prepared?</h1>
+                        <h1 className="mainDetailParagraph">Register for <p>Grad Olympiads</p></h1>
+                        <div className="mainDetailsButton">
+                            <button className="mainSchedule">Schedule</button>
+                            <button className="mainRegisterNow">Register Now!</button>
+                        </div>
+                    </div>
+                    <div className="homeDetailsImg">
+                        <div className="homeCircle"></div>
+                        <img src={mainImg} alt="" className="homeBoyImg"/>
                     </div>
                 </div>
-                <div className="homeDetailsImg">
-                    <div className="homeCircle"></div>
-                    <img src={mainImg} alt="" />
-                </div>
+                <div className="mainNotice"></div>
             </div>
-            <div className="mainNotice"></div>
             <div className="ourOlympiadsWrapper sectionScroll" >
                 <h1>Our Olympiads</h1>
                 <div className="ourOlympiadExams">
@@ -99,9 +101,31 @@ export default function Home() {
             </div>
             <div className="footer sectionScroll">
                 <div className="footerWrapper">
-                    <h1>Contact us:</h1>
+                    <div className="">
+                        <h1>Contact us:</h1>
                     <h2>info@sfoly.com</h2>
+                    <br/>
+                    <br/>
+                    <h2>Connect us here:</h2>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>You Tube</p>
+                    </div>
+                    
+                    <div className="footerFeedback">
+                        <div className="footerName">
+                            <input type="text" placeholder="firstname" />
+                            <input type="text" placeholder="lastname" />
+                        </div>
+                        <input className="footerFeedbackEmail" type="email" placeholder="email address"/>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button>Send</button>
+                    </div>
                 </div>
+                <p className="footerCopyright">
+                    &copy; All right reserved <br/>
+                    All Design made by <a href="https://anujshaan.netlify.app/">Anuj Shaan</a>
+                </p>
             </div>
         </div>
     )
