@@ -1,0 +1,241 @@
+.homeWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.mainDetailHeading{
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+.mainDetailParagraph{
+    display: flex;
+    font-size: 48px;
+    align-items: center;
+}
+.mainDetailParagraph p{
+    margin-left: 1rem;
+    background: -webkit-linear-gradient(#A9A4FF, #0E00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mainDetailsButton{
+    display: flex;
+    justify-content: space-around;
+    margin-top:4rem ;
+}
+.mainDetailsButton button{
+    padding: 1.5rem 4rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mainRegisterNow{
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+    color: #fff;
+}
+.mainRegisterNow:hover{
+    background-image:linear-gradient(#0000aa, #1107c7);
+}
+.mainSchedule {
+    background-color: #fff;
+    color: #635bff;
+}
+.mainSchedule:hover{
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+    color: #fff !important;
+}
+
+.homeCircle{
+    width: 650px;
+    height: 650px;
+    background-image:linear-gradient(#A9A4FF, #0E00FF) ;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 6rem;
+    box-shadow: 0px 15px 39px 15px rgba(123,123,123,0.75);
+    -webkit-box-shadow: 0px 15px 39px 15px rgba(123,123,123,0.75);
+    -moz-box-shadow: 0px 15px 39px 15px rgba(123,123,123,0.75); 
+}
+.homeDetailsImg img{
+    width: 500px;
+    height: 655px;
+    position: relative;
+    top: 2rem;
+    left: -2rem;
+}
+.mainNotice{
+    margin-top: 1.6rem;
+    height: 64px;
+    border-top: 1px solid #555;
+}
+.ourOlympiadsWrapper{
+    background-color: moccasin;
+    text-align: center;
+
+}
+.ourOlympiadsWrapper h1{
+    font-size: 48px;
+}
+.ourOlympiadExams{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+.ourCommunityWrapper{
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+.ourCommunityWrapper h1{
+    text-align: center;
+    font-size: 48px;
+}
+.ourCommunityIcons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ourCommunityIcons p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ourCommunityCircle{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+-webkit-box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+-moz-box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+}
+.schoolIcon{
+    width: 127px;
+    height: 130px;
+    
+}
+.studentIcon{
+    width: 127px;
+    height: 130px;
+    
+}
+.workerIcon{
+    width: 127px;
+    height: 130px;
+}
+.communitySignup{
+    display: flex;
+    align-items: center;
+    height: 55vh;
+    margin-top: 5rem;
+}
+.communitySignup p{
+    margin: 2rem auto;
+    width: 80%;
+    text-align: justify;
+}
+.signupInstitute{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.signupCoordinator{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.communitySignupH1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.communitySignup button{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border:none;
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.communitySignup button:hover{
+    background-image: linear-gradient(#0000aa, #1107c7);
+}
+.aboutSpringfieldAndReview{
+    background-color: moccasin;
+    height: 100vh;
+
+}
+.aboutSpringfield{
+    width: 70%;
+    margin: auto;
+}
+.aboutSpringfield h1{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.about-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutSpringfield img{
+    width: 170px;
+}
+.aboutSpringfieldDetails{
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+}
+.aboutSpringfieldDetails button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border:none;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+    cursor: pointer;
+}
+.review{
+    width: 70%;
+    text-align: center;
+    margin: 3rem auto;
+}
+.reviewContent{
+    margin-top:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    color: #fff;
+}
+.footerWrapper{
+    width: 70%;
+    margin: auto;
+    padding-top: 5rem;
+}

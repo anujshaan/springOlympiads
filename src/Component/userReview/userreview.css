@@ -1,0 +1,38 @@
+.userReview{
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+    -webkit-box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+    -moz-box-shadow: 0px 28px 39px 15px rgba(123,123,123,0.75);
+    border-radius: 20px;
+    background-image: linear-gradient(#A9A4FF, #4137ff);
+}
+.userReviewWrapper{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    color: #fff;
+}
+.userReviewWrapper img{
+    width:120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.username{
+    font-size: 30px;
+    font-weight: 500;
+}
+.userStatus{
+    font-weight: 300;
+    font-size: 24px;
+}
+.userFeedback{
+    font-size: 18px;
+    font-weight: 400;
+}
