@@ -14,8 +14,6 @@ import UserReview from '../../Component/userReview/UserReview';
 
 export default function Home() {
 
-    
-
     return (
         <div className="home">
                 <Navbar />
@@ -78,7 +76,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="aboutSpringfieldAndReview">
+            <div className="aboutSpringfieldAndReview sectionScroll">
                 <div className="aboutSpringfield">
                     <h1>About Springfield Olympiads</h1>
                     <div className="about-flex">
@@ -99,7 +97,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="footer">
+            <div className="footer sectionScroll">
                 <div className="footerWrapper">
                     <h1>Contact us:</h1>
                     <h2>info@sfoly.com</h2>

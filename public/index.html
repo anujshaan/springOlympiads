@@ -24,25 +24,29 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      $.scrollify({
-        section : "sectionScroll",
-        sectionName : "section-name",
-        interstitialSection : "",
-        easing: "easeOutExpo",
-        scrollSpeed: 1100,
-        offset : 0,
-        scrollbars: true,
-        standardScrollElements: "",
-        setHeights: true,
-        overflowScroll: true,
-        updateHash: true,
-        touchScroll:true,
-        before:function() {},
-        after:function() {},
-        afterResize:function() {},
-        afterRender:function() {}
-    });
+      $(function(){
+        $.scrollify({
+          section : ".sectionScroll",
+          sectionName : "section-name",
+          interstitialSection : "",
+          easing: "easeOutExpo",
+          scrollSpeed: 1100,
+          offset : 20,
+          scrollbars: true,
+          standardScrollElements: "",
+          setHeights: true,
+          overflowScroll: true,
+          updateHash: true,
+          touchScroll:true,
+          before:function() {},
+          after:function() {},
+          afterResize:function() {},
+          afterRender:function() {}
+        });
+      });
     </script>
   </body>
 </html>
